@@ -1,0 +1,128 @@
+body{
+    background-color: #1D1D23;
+    text-align: center;
+    color: white;
+}
+#main-container{
+    justify-content: center;
+    
+}
+#timer-container{
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+    /* text-align: center; */
+    /* justify-content: space-around; */
+    /* margin: 2rem 0rem 0rem 2rem; */
+    background-color: #34344A;
+    padding: 2rem;
+    margin: 2.2rem;
+    border-radius: 30px;
+    height: 10vh;
+    width: auto;
+    color: white;
+}
+input{
+    border: none;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    text-align: center;
+    /* margin: 0rem 0rem 0rem 4rem; */
+    outline: none;
+    color: white;
+    background-color: transparent;
+}
+p{
+    font-size: 2rem;
+}
+#set-time{
+    background-color: #e1ec11;
+    border-radius: 20px;
+    height: 3rem;
+    width: 7rem;
+    font-size: 2rem;
+    margin: auto;
+}
+#set-time:hover{
+    background-color: #F0F757;
+}
+#current-timer-heding{
+    font-size: 2rem;
+    background-color: #39393E;
+    margin: 0 40%;
+    padding: 1rem;
+    border-radius: 20px;
+    justify-content: center;
+}
+.no-timers-text{
+    font-size: 1.5rem;
+}
+.timer-container {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    margin: 2.2rem;
+    padding: 2rem;
+    justify-content: space-around;
+    /* border: 1px solid #ccc; */
+    border-radius: 30px;
+    background-color: #34344A;
+}
+
+.timer {
+    font-size: 2rem;
+}
+
+.timer-ended {
+    color: #e1ec11;
+    font-size: 2rem;
+    /* background-color: #e1ec11; */
+}
+
+.time-left {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.timer-controls {
+    display: flex;
+    justify-content: center;
+}
+
+.control-button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.stop-button {
+    background-color: #e1ec11;
+    color: black;
+    font-size: 1.5rem;
+    border-radius: 20px;
+}
+
+.stop-button:hover {
+    background-color: #F0F757;
+}
+
+.delete-button {
+    background-color: #e1ec11;
+    color: black;
+    font-size: 1.5rem;
+    border-radius: 20px;
+}
+
+.delete-button:hover {
+    background-color: #F0F757;
+}
+
+#heading {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    margin: 20px;
+    margin: auto;
+}
